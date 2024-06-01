@@ -7,7 +7,7 @@ if (isset($_GET['categoria'])) {
 
     try {
         // Realizamos la consulta a Prolog
-        $consulta = "pelis_categoria('$categoria').";
+        $consulta = "series_categoria('$categoria').";
         echo "Consulta Prolog: " . htmlspecialchars($consulta) . "<br>"; // Línea de depuración
         $resultados = consultas($consulta);
 

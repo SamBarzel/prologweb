@@ -363,27 +363,31 @@ todas_peliculas :-
     fail. 
 
 
-todas_las_peliculas :-
-    serie(ID, Titulo, Categoria, Anio, Sinopsis, Duracion, Actores, Idioma),
-    format('ID: ~w~n', [ID]),
+
+
+series_categoria(Categoria) :-
+ serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion,Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
     format('Título: ~w~n', [Titulo]),
     format('Categoría: ~w~n', [Categoria]),
     format('Año: ~w~n', [Anio]),
     format('Sinopsis: ~w~n', [Sinopsis]),
     format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
     format('Actores: ~w~n', [Actores]),
     format('Idioma: ~w~n', [Idioma]),
     nl,
     fail.
-
-categoria_serie(Categoria) :-
-    serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Actores, Idioma),
+    
+pelis_categoria(Categoria) :-
+ pelicula(Id, Titulo, Categoria, Anio, Sinopsis, Duracion,Director, Actores, Idioma),
     format('Id: ~w~n', [Id]),
-    format('Titulo: ~w~n', [Titulo]),
-    format('Categorias: ~w~n', [Categoria]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
     format('Año: ~w~n', [Anio]),
     format('Sinopsis: ~w~n', [Sinopsis]),
-    format('Duracion: ~w~n' ,[Duracion]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
     format('Actores: ~w~n', [Actores]),
     format('Idioma: ~w~n', [Idioma]),
     nl,
