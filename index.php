@@ -634,7 +634,7 @@ function cards8($todo){
 <!--
         - #Section de Categotia
       -->
-      <section class="category" id="category">
+      <section class="category" id="category_series">
 
         <h2 class="section-heading">Categoria Series</h2>
 
@@ -651,7 +651,7 @@ function cards8($todo){
           echo  '<div class="category-card">';
          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
           echo  '<div class="name">';
-            echo  '<h3><a href="categorias_series.php?categoria=ciencia_ficcion">Drama</a></h3>';
+            echo  '<h3><a href="categorias_series.php?categoria=ciencia_ficcion">Ciencia Ficción</a></h3>';
           echo  '</div>';
           echo '<div class="total">100</div>';
           echo '</div>';
@@ -659,7 +659,7 @@ function cards8($todo){
           echo  '<div class="category-card">';
           echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
            echo  '<div class="name">';
-             echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+             echo  '<h3><a href="categorias_series.php?categoria=aventura">Aventura</a></h3>';
            echo  '</div>';
            echo '<div class="total">100</div>';
            echo '</div>';
@@ -667,7 +667,7 @@ function cards8($todo){
            echo  '<div class="category-card">';
            echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
             echo  '<div class="name">';
-              echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+              echo  '<h3><a href="categorias_series.php?categoria=terror">Terror</a></h3>';
             echo  '</div>';
             echo '<div class="total">100</div>';
             echo '</div>';
@@ -675,7 +675,7 @@ function cards8($todo){
             echo  '<div class="category-card">';
             echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
              echo  '<div class="name">';
-               echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+               echo  '<h3><a href="categorias_series.php?categoria=anime">Anime</a></h3>';
              echo  '</div>';
              echo '<div class="total">100</div>';
              echo '</div>';
@@ -683,7 +683,7 @@ function cards8($todo){
              echo  '<div class="category-card">';
              echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
               echo  '<div class="name">';
-                echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+                echo  '<h3><a href="categorias_series.php?categoria=comedia">Comedia</a></h3>';
               echo  '</div>';
               echo '<div class="total">100</div>';
               echo '</div>';
@@ -691,7 +691,7 @@ function cards8($todo){
               echo  '<div class="category-card">';
               echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
                echo  '<div class="name">';
-                 echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+                 echo  '<h3><a href="categorias_series.php?categoria=suspenso">Suspenso</a></h3>';
                echo  '</div>';
                echo '<div class="total">100</div>';
                echo '</div>';
@@ -699,7 +699,7 @@ function cards8($todo){
                echo  '<div class="category-card">';
                echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
                 echo  '<div class="name">';
-                  echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+                  echo  '<h3><a href="categorias_series.php?categoria=animacion">Animación</a></h3>';
                 echo  '</div>';
                 echo '<div class="total">100</div>';
                 echo '</div>';
@@ -724,7 +724,7 @@ require_once 'peliculas.php';
       -->
       <section class="category" id="category">
 
-        <h2 class="section-heading">Category</h2>
+        <h2 class="section-heading">Categoria de Peliculas</h2>
 
         <div class="category-grid">
         <?php
@@ -735,49 +735,143 @@ require_once 'peliculas.php';
           echo  '</div>';
           echo '<div class="total">100</div>';
           echo '</div>';
+          
+          echo  '<div class="category-card">';
+         echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+          echo  '<div class="name">';
+            echo  '<h3><a href="categorias.php?categoria=horror">Horror</a></h3>';
+          echo  '</div>';
+          echo '<div class="total">100</div>';
+          echo '</div>';
+
+          echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=suspenso">Suspenso</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+           echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+            echo  '<div class="name">';
+              echo  '<h3><a href="categorias.php?categoria=documentales">Documentales</a></h3>';
+            echo  '</div>';
+            echo '<div class="total">100</div>';
+            echo '</div>';         
+
+            echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=romanticas">Romanticas</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=anime">Anime</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=fantasia">Fantasia</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=ciencia_ficcion">Ciencia Ficción</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=crimen">Crimen</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=comedia">Comedia</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=aventura">Aventura</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=familiares">Familiares</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=animacion">Animación</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=mexicanas">Mexicanas</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=marvel">Marvel</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=estrenos">Estrenos</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=drama">Dramas</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias.php?categoria=deporte">Deportes</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">100</div>';
+           echo '</div>';
           ?>
-          <div class="category-card">
-            <img src="./assets/images/comedy.jpg" alt="" class="card-img">
-            <div class="name">Comedy</div>
-            <div class="total">50</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/thriller.webp" alt="" class="card-img">
-            <div class="name">Thriller</div>
-            <div class="total">20</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/horror.jpg" alt="" class="card-img">
-            <div class="name">Horror</div>
-            <div class="total">80</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/adventure.jpg" alt="" class="card-img">
-            <div class="name">Adventure</div>
-            <div class="total">100</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/animated.jpg" alt="" class="card-img">
-            <div class="name">Animated</div>
-            <div class="total">50</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/crime.jpg" alt="" class="card-img">
-            <div class="name">Crime</div>
-            <div class="total">20</div>
-          </div>
-
-          <div class="category-card">
-            <img src="./assets/images/sci-fi.jpg" alt="" class="card-img">
-            <div class="name">SCI-FI</div>
-            <div class="total">80</div>
-          </div>
-
         </div>
 
       </section>

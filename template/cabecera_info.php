@@ -11,7 +11,7 @@
 <!-- moviesingle07:38-->
 <head>
 	<!-- Basic need -->
-	<title>Open Pediatrics</title>
+	<title>Spartan Movies Info</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="">

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
-  <title>CineFlix</title>
+  <title>Spartan Movies</title>
 
   <!--
     - custom css link
@@ -58,9 +58,12 @@
         <nav class="">
           <ul class="navbar-nav">
 
-            <li> <a href="#" class="navbar-link">Home</a> </li>
-            <li> <a href="#category" class="navbar-link">Category</a> </li>
-            <li> <a href="#live" class="navbar-link  indicator">LIVE</a> </li>
+            <li> <a href="index.php" class="navbar-link">Casa</a> </li>
+            <li> <a href="#category_series" class="navbar-link">Categora Series</a> </li>
+            <li> <a href="#category" class="navbar-link">Categora Peliculas</a> </li>
+            <li> <a href="destacadasp.php" class="navbar-link  indicator">Destacadas Pelis</a> </li>
+            <li> <a href="destacadass.php" class="navbar-link  indicator">Destacadas Series</a> </li>
+
 
           </ul>
         </nav>
@@ -78,9 +81,6 @@
               <ion-icon name="search-outline"></ion-icon>
             </button>
 
-            <button class="navbar-form-close">
-              <ion-icon name="close-circle-outline"></ion-icon>
-            </button>
           </form>
 
 
@@ -88,14 +88,7 @@
             - search button for small screen
           -->
 
-          <button class="navbar-search-btn">
-            <ion-icon name="search-outline"></ion-icon>
-          </button>
 
-          <a href="#" class="navbar-signin">
-            <span>Sign in</span>
-            <ion-icon name="log-in-outline"></ion-icon>
-          </a>
 
         </div>
 
