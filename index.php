@@ -50,19 +50,18 @@ try{
 
 <!--
   - movies grid
--->
-<h2>Dramas</h2>
+--><h2>Dramas</h2>
 <div class="movies-grid">
 
 <?php 
 // Contador para mostrar 20 series
-for ($i = 0; $i < 6; $i++){
-  if(isset($todo[$i])){
-     // $todo = $todo[$i];
+for ($i = 0; $i < 6; $i++) {
+  if (isset($todo[$i])) {
       cards($todo[$i]);
   }
 }
-function cards($todo){
+
+function cards($todo) {
   $id = htmlspecialchars($todo['Id']);
   $titulo = htmlspecialchars($todo['Titulo']);
   $categoria = htmlspecialchars($todo['Categoria']);
@@ -73,12 +72,11 @@ function cards($todo){
   $actores = htmlspecialchars($todo['Actores']);
   $idioma = htmlspecialchars($todo['Idioma']);
 
-
-
   echo '<div class="movie-card">';
     echo '<div class="card-head">';
-      echo '<img src="./assets/images/movies/' . $id . '.png" alt="" class="card-img">';
-
+      echo '<a href="info_s.php?id=' . $id . '">';
+        echo '<img src="./assets/images/movies/' . $id . '.png" alt="' . $titulo . '" class="card-img">';
+      echo '</a>';
       echo '<div class="card-overlay">';
 
         echo '<div class="bookmark">';
@@ -97,24 +95,18 @@ function cards($todo){
     echo '</div>';
 
     echo '<div class="card-body">';
-    echo '<h3 class="card-title"><a href="info_s.php?id=' . $id . '">' . $titulo . '</a></h3>';
-
+      echo '<h3 class="card-title"><a href="info_s.php?id=' . $id . '">' . $titulo . '</a></h3>';
       echo '<div class="card-info">';
         echo '<span class="genre">' . $categoria . '</span>';
         echo '<span class="year">' . $year . '</span>';
       echo '</div>';
     echo '</div>';
-
   echo '</div>';
- 
-
-
-
-
 }
 ?>
 </div>
 <button class="load-more">Ver Más</button>
+
 
 <h2>Ciencia Ficción</h2>
 <div class="movies-grid">
