@@ -1,26 +1,46 @@
 <?php
+// Llamamos al archivo de la conexión
 require_once 'conexion.php';
 require_once 'template/cabecera_index.php';
 
-if (isset($_GET['categoria'])) {
-    $categoria = $_GET['categoria'];
+if (isset($_GET['year'])) {
+    $year = $_GET['year'];
 
     try {
         // Realizamos la consulta a Prolog
-        $consulta = "pelis_categoria('$categoria').";
-        echo "Consulta Prolog: " . htmlspecialchars($consulta) . "<br>"; // Línea de depuración
-        $resultados = consultas($consulta);
+        $consulta = "todo_el_contenido_pelis($year).";
+      //  echo "Consulta Prolog: " . htmlspecialchars($consulta) . "<br>"; // Línea de depuración
 
-        if (count($resultados) > 0) {
-            $todo = $resultados;
+        // Suponiendo que consultas($consulta) devuelve una cadena JSON con los resultados
+        $resultados = consultas($consulta);
+        
+        
+
+        if ($resultados && count($resultados) > 0) {
+           /* foreach ($resultados as $resultado) {
+                echo "Id: " . htmlspecialchars($resultado['Id']) . "<br>";
+                echo "Titulo: " . htmlspecialchars($resultado['Titulo']) . "<br>";
+                echo "Categoria: " . htmlspecialchars($resultado['Categoria']) . "<br>";
+                echo "Year: " . htmlspecialchars($resultado['Year']) . "<br>";
+                echo "Sinopsis: " . htmlspecialchars($resultado['Sinopsis']) . "<br>";
+                echo "Duracion: " . htmlspecialchars($resultado['Duracion']) . " minutos<br>";
+                echo "Director: " . htmlspecialchars($resultado['Director']) . "<br>";
+                echo "Actores: " . htmlspecialchars($resultado['Actores']) . "<br>";
+                echo "Idioma: " . htmlspecialchars($resultado['Idioma']) . "<br>";
+                echo "---------------------------<br>";
+            }*/
+            $todo = array();
+    foreach ($resultados as $resultado){
+        $todo[] = $resultado;
+    }
         } else {
-            echo "No se encontraron resultados para la categoría proporcionada.";
+            echo "No se encontraron resultados para el año proporcionado.";
         }
     } catch (Exception $e) {
         echo 'Error: ' . $e->getMessage();
     }
 } else {
-    echo "No se ha proporcionado una categoría.";
+    echo "No se ha proporcionado un año.";
 }
 ?>
 
@@ -31,13 +51,13 @@ if (isset($_GET['categoria'])) {
 -->
 <div class="filter-bar">
   <div class="filter-dropdowns">
-    <?php
-    //ucfirst — Convierte el primer caracter de una cadena a mayúsculas
-    $categoria = ucfirst($categoria);
-echo '<h1>Todas las Peliculas ('. $categoria .')</h1>';
-   ?>
+  <?php
+    echo '<h1>Por Año ('. $year .')</h1>';
+?>
+   
   </div>
 </div>
+
 
 <!--
   - movies grid
@@ -45,14 +65,13 @@ echo '<h1>Todas las Peliculas ('. $categoria .')</h1>';
 <div class="movies-grid">
 
 <?php 
-if (isset($todo) && count($todo) > 0) {
-    foreach ($todo as $resultado) {
-        cards($resultado);
-    }
-} else {
-    echo "No hay series para mostrar.";
+// Contador para mostrar 20 series
+for ($i = 0; $i < 50; $i++){
+  if(isset($todo[$i])){
+     // $todo = $todo[$i];
+      cards($todo[$i]);
+  }
 }
-
 function cards($todo){
   $id = htmlspecialchars($todo['Id']);
   $titulo = htmlspecialchars($todo['Titulo']);
@@ -63,6 +82,8 @@ function cards($todo){
   $director = htmlspecialchars($todo['Director']);
   $actores = htmlspecialchars($todo['Actores']);
   $idioma = htmlspecialchars($todo['Idioma']);
+
+
 
   echo '<div class="movie-card">';
     echo '<div class="card-head">';
@@ -86,7 +107,7 @@ function cards($todo){
     echo '</div>';
 
     echo '<div class="card-body">';
-    echo '<h3 class="card-title"><a href="info.php?id=' . $id . '">' . $titulo . '</a></h3>';
+    echo '<h3 class="card-title"><a href="info_s.php?id=' . $id . '">' . $titulo . '</a></h3>';
 
       echo '<div class="card-info">';
         echo '<span class="genre">' . $categoria . '</span>';
@@ -95,15 +116,20 @@ function cards($todo){
     echo '</div>';
 
   echo '</div>';
+ 
+
+
+
+
 }
 ?>
 </div>
-
-<!-- Optionally include a button for loading more content dynamically -->
 <button class="load-more">Ver Más</button>
+
 
 </section>
 
-<?php
+
+      <?php
 require_once 'template/pie_index.php';
 ?>

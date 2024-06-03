@@ -4,8 +4,11 @@
 
   <div class="footer-brand">
     <img src="./assets/images/logo.png" alt="" class="footer-logo">
-    <p class="slogan">Movies & TV Shows, Online cinema,
-      Movie database HTML Template.</p>
+    <p class="slogan">Integrantes de Spartan Movies: <br>
+      Maria Isabel Alvarez Moreno <br>
+      Antonio Mendia Esquivel <br>
+      Samuel Pienda Rodríguez <br>
+      Manuel Vergara Martinez</p>
 
 
     <div class="social-link">
@@ -33,7 +36,7 @@
   <div class="footer-links">
     <ul>
 
-      <h4 class="link-heading">CineFlix</h4>
+      <h4 class="link-heading">Spartan Movies</h4>
 
       <li class="link-item"><a href="#">About us</a></li>
       <li class="link-item"><a href="#">My profile</a></li>
@@ -79,7 +82,7 @@
 <div class="footer-copyright">
 
   <div class="copyright">
-    <p>&copy; copyright 2021 CineFlix</p>
+    <p>&copy; copyright 2024 Stpartan Web & Spartan Movies</p>
   </div>
 
   <div class="wrapper">

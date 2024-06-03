@@ -7,7 +7,7 @@ if (isset($_GET['categoria'])) {
 
     try {
         // Realizamos la consulta a Prolog
-        $consulta = "pelis_categoria('$categoria').";
+        $consulta = "series_categoria('$categoria').";
         echo "Consulta Prolog: " . htmlspecialchars($consulta) . "<br>"; // Línea de depuración
         $resultados = consultas($consulta);
 
@@ -31,10 +31,10 @@ if (isset($_GET['categoria'])) {
 -->
 <div class="filter-bar">
   <div class="filter-dropdowns">
-    <?php
+  <?php
     //ucfirst — Convierte el primer caracter de una cadena a mayúsculas
     $categoria = ucfirst($categoria);
-echo '<h1>Todas las Peliculas ('. $categoria .')</h1>';
+echo '<h1>Todas las Series ('. $categoria .')</h1>';
    ?>
   </div>
 </div>
@@ -66,7 +66,7 @@ function cards($todo){
 
   echo '<div class="movie-card">';
     echo '<div class="card-head">';
-      echo '<img src="./assets/images/pelis/' . $id . '.png" alt="" class="card-img">';
+      echo '<img src="./assets/images/movies/' . $id . '.png" alt="" class="card-img">';
 
       echo '<div class="card-overlay">';
 
@@ -86,7 +86,7 @@ function cards($todo){
     echo '</div>';
 
     echo '<div class="card-body">';
-    echo '<h3 class="card-title"><a href="info.php?id=' . $id . '">' . $titulo . '</a></h3>';
+    echo '<h3 class="card-title"><a href="info_s.php?id=' . $id . '">' . $titulo . '</a></h3>';
 
       echo '<div class="card-info">';
         echo '<span class="genre">' . $categoria . '</span>';

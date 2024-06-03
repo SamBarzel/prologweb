@@ -270,16 +270,16 @@ pelicula(138, 'La Jaula de Oro', mexicanas, 2013, 'Tres adolescentes guatemaltec
 pelicula(139, 'El Infierno', mexicanas, 2010, 'Un hombre regresa a su pueblo natal y se ve envuelto en el mundo del narcotráfico, descubriendo la corrupción y violencia que lo rodea.', 145, 'Luis Estrada', 'Damián Alcázar, Joaquín Cosio, Ernesto Gómez Cruz', 'Español').
 pelicula(140, 'Una Película de Huevos', mexicanas, 2006, 'Una comedia animada que sigue las aventuras de un grupo de huevos en busca de salvar a uno de sus amigos de convertirse en el desayuno de un malvado chef.', 90, 'Gabriel Riva Palacio Alatriste, Rodolfo Riva Palacio Alatriste', 'Bruno Bichir, Carlos Espejel, Angélica Vale', 'Español').
 %marvel
-pelicula(141, 'Iron Man', accion, 2008, 'Un multimillonario construye un traje blindado y se convierte en un héroe tecnológicamente avanzado.', 126, 'Jon Favreau', 'Robert Downey Jr., Gwyneth Paltrow, Jeff Bridges', 'Inglés').
-pelicula(142, 'Capitán América: El primer vengador', accion, 2011, 'Un joven débil se somete a un experimento que lo convierte en un super soldado durante la Segunda Guerra Mundial.', 124, 'Joe Johnston', 'Chris Evans, Hugo Weaving, Hayley Atwell', 'Inglés').
-pelicula(143, 'Thor', accion, 2011, 'El poderoso dios del trueno es desterrado a la Tierra y debe aprender a ser un verdadero héroe.', 115, 'Kenneth Branagh', 'Chris Hemsworth, Natalie Portman, Tom Hiddleston', 'Inglés').
-pelicula(144, 'Los Vengadores', accion, 2012, 'Los superhéroes de Marvel se unen para enfrentarse a una amenaza alienígena que amenaza con destruir la Tierra.', 143, 'Joss Whedon', 'Robert Downey Jr., Chris Evans, Scarlett Johansson', 'Inglés').
-pelicula(145, 'Spider-Man: De regreso a casa', accion, 2017, 'Un adolescente con habilidades arácnidas lucha contra el crimen mientras intenta equilibrar su vida escolar y personal.', 133, 'Jon Watts', 'Tom Holland, Michael Keaton, Robert Downey Jr.', 'Inglés').
-pelicula(146, 'Doctor Strange', accion, 2016, 'Un cirujano talentoso busca la cura para sus manos lesionadas y descubre un mundo de magia y dimensiones alternativas.', 115, 'Scott Derrickson', 'Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams', 'Inglés').
-pelicula(147, 'Black Panther', accion, 2018, 'El rey de una nación africana avanzada tecnológicamente lucha por proteger su país y su legado como superhéroe.', 134, 'Ryan Coogler', 'Chadwick Boseman, Michael B. Jordan, Lupita Nyong', 'Inglés').
-pelicula(148, 'Spider-Man', accion, 2002, 'Un estudiante de secundaria obtiene habilidades extraordinarias después de ser mordido por una araña genéticamente modificada y lucha contra el crimen en Nueva York.', 121, 'Sam Raimi', 'Tobey Maguire, Kirsten Dunst, Willem Dafoe', 'Inglés').
-pelicula(149, 'Avengers: Infinity War', accion, 2018, 'Los Vengadores se unen para detener al poderoso Thanos de reunir las gemas del infinito y destruir la mitad del universo.', 149, 'Anthony Russo, Joe Russo', 'Robert Downey Jr., Chris Hemsworth, Mark Ruffalo', 'Inglés').
-pelicula(150, 'Avengers: Endgame', accion, 2019, 'Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados perdidos y derrotar a Thanos en una batalla épica para restaurar el equilibrio del universo.', 181, 'Anthony Russo, Joe Russo', 'Robert Downey Jr., Chris Evans, Mark Ruffalo', 'Inglés').
+pelicula(141, 'Iron Man', marvel, 2008, 'Un multimillonario construye un traje blindado y se convierte en un héroe tecnológicamente avanzado.', 126, 'Jon Favreau', 'Robert Downey Jr., Gwyneth Paltrow, Jeff Bridges', 'Inglés').
+pelicula(142, 'Capitán América: El primer vengador', marvel, 2011, 'Un joven débil se somete a un experimento que lo convierte en un super soldado durante la Segunda Guerra Mundial.', 124, 'Joe Johnston', 'Chris Evans, Hugo Weaving, Hayley Atwell', 'Inglés').
+pelicula(143, 'Thor', marvel, 2011, 'El poderoso dios del trueno es desterrado a la Tierra y debe aprender a ser un verdadero héroe.', 115, 'Kenneth Branagh', 'Chris Hemsworth, Natalie Portman, Tom Hiddleston', 'Inglés').
+pelicula(144, 'Los Vengadores', marvel, 2012, 'Los superhéroes de Marvel se unen para enfrentarse a una amenaza alienígena que amenaza con destruir la Tierra.', 143, 'Joss Whedon', 'Robert Downey Jr., Chris Evans, Scarlett Johansson', 'Inglés').
+pelicula(145, 'Spider-Man: De regreso a casa', marvel, 2017, 'Un adolescente con habilidades arácnidas lucha contra el crimen mientras intenta equilibrar su vida escolar y personal.', 133, 'Jon Watts', 'Tom Holland, Michael Keaton, Robert Downey Jr.', 'Inglés').
+pelicula(146, 'Doctor Strange', marvel, 2016, 'Un cirujano talentoso busca la cura para sus manos lesionadas y descubre un mundo de magia y dimensiones alternativas.', 115, 'Scott Derrickson', 'Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams', 'Inglés').
+pelicula(147, 'Black Panther', marvel, 2018, 'El rey de una nación africana avanzada tecnológicamente lucha por proteger su país y su legado como superhéroe.', 134, 'Ryan Coogler', 'Chadwick Boseman, Michael B. Jordan, Lupita Nyong', 'Inglés').
+pelicula(148, 'Spider-Man', marvel, 2002, 'Un estudiante de secundaria obtiene habilidades extraordinarias después de ser mordido por una araña genéticamente modificada y lucha contra el crimen en Nueva York.', 121, 'Sam Raimi', 'Tobey Maguire, Kirsten Dunst, Willem Dafoe', 'Inglés').
+pelicula(149, 'Avengers: Infinity War', marvel, 2018, 'Los Vengadores se unen para detener al poderoso Thanos de reunir las gemas del infinito y destruir la mitad del universo.', 149, 'Anthony Russo, Joe Russo', 'Robert Downey Jr., Chris Hemsworth, Mark Ruffalo', 'Inglés').
+pelicula(150, 'Avengers: Endgame', marvel, 2019, 'Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados perdidos y derrotar a Thanos en una batalla épica para restaurar el equilibrio del universo.', 181, 'Anthony Russo, Joe Russo', 'Robert Downey Jr., Chris Evans, Mark Ruffalo', 'Inglés').
 %estrenos
 pelicula(151, 'Dune', estrenos, 2021, 'En un futuro lejano, el hijo de una familia noble debe proteger un planeta desértico y sus recursos mientras lucha por su supervivencia y el destino de su pueblo.', 155, 'Denis Villeneuve', 'Timothée Chalamet, Rebecca Ferguson, Zendaya', 'Inglés').
 pelicula(152, 'Barbie', estrenos, 2023, 'Barbie, la muñeca más famosa del mundo, emprende una aventura en el mundo real donde descubre el verdadero significado de la vida y la amistad.', 114, 'Greta Gerwig', 'Margot Robbie, Ryan Gosling, America Ferrera', 'Inglés').
@@ -288,7 +288,7 @@ pelicula(154, 'The Matrix Resurrections', estrenos, 2021, 'Thomas Anderson (tamb
 pelicula(155, 'Shang-Chi and the Legend of the Ten Rings', estrenos, 2021, 'Un joven debe enfrentarse al pasado oscuro de su familia y confrontar al líder de una organización criminal que posee poderosos artefactos.', 132, 'Destin Daniel Cretton', 'Simu Liu, Awkwafina, Tony Leung', 'Inglés').
 pelicula(156, 'Venom: Let There Be Carnage', estrenos, 2021, 'El simbionte Venom debe enfrentarse a un nuevo enemigo, Carnage, mientras lucha por controlar su relación con su huésped humano, Eddie Brock.', 97, 'Andy Serkis', 'Tom Hardy, Woody Harrelson, Michelle Williams', 'Inglés').
 pelicula(157, 'The Batman', estrenos, 2022, 'Un nuevo capítulo en la historia del Caballero Oscuro, donde Batman investiga una serie de crímenes mientras se enfrenta a algunos de sus enemigos más icónicos.', 176, 'Matt Reeves', 'Robert Pattinson, Zoë Kravitz, Paul Dano', 'Inglés').
-pelicula(158, 'Top Gun: Maverick', estrenos, 2022, 'El piloto de élite Pete 'Maverick' Mitchell regresa a la academia Top Gun como instructor, donde debe enfrentarse a fantasmas de su pasado mientras entrena a una nueva generación de pilotos.', 144, 'Joseph Kosinski', 'Tom Cruise, Miles Teller, Jennifer Connelly', 'Inglés').
+pelicula(158, 'Top Gun: Maverick', estrenos, 2022, 'El piloto de élite Pete Maverick Mitchell regresa a la academia Top Gun como instructor, donde debe enfrentarse a fantasmas de su pasado mientras entrena a una nueva generación de pilotos.', 144, 'Joseph Kosinski', 'Tom Cruise, Miles Teller, Jennifer Connelly', 'Inglés').
 pelicula(159, 'Black Adam', estrenos, 2022, 'Un antiguo esclavo dotado de poderes místicos obtiene libertad y busca venganza contra aquellos que lo oprimieron, desatando su furia sobre el mundo moderno.', 129, 'Jaume Collet-Serra', 'Dwayne Johnson, Noah Centineo, Aldis Hodge', 'Inglés').
 pelicula(160, 'Jurassic World: Dominion', estrenos, 2022, 'Los dinosaurios vagan libremente en la Tierra, pero cuando una nueva amenaza surge, un grupo de personas debe trabajar juntas para evitar la extinción humana.', 156, 'Colin Trevorrow', 'Chris Pratt, Bryce Dallas Howard, Jeff Goldblum', 'Inglés').
 %drama-----------
@@ -333,6 +333,8 @@ pelicula(197, 'La Sirenita', fantasia, 2023, 'Una joven sirena llamada Ariel sue
 pelicula(198, 'Fragmentado', suspenso, 2016, 'Un hombre con trastorno de identidad disociativo secuestra a tres chicas adolescentes, quienes deben encontrar una manera de escapar antes de que aparezca una nueva y peligrosa personalidad.', 117, 'M. Night Shyamalan', 'James McAvoy, Anya Taylor-Joy, Betty Buckley', 'Inglés').
 pelicula(199, 'Super Mario Bros.', animacion, 2023, 'Los famosos hermanos Mario y Luigi se embarcan en una aventura épica para salvar el Reino Champiñón y rescatar a la Princesa Peach de las garras del malvado Rey Koopa.', 123, 'Desconocido', 'Desconocido', 'Desconocido').
 pelicula(200, 'OpenHammer', aventura, 2024, 'Un grupo de exploradores se aventura en las profundidades de una misteriosa isla en busca de un antiguo artefacto, pero se encuentran con peligros inesperados que pondrán a prueba su valentía y determinación.', 130, 'Desconocido', 'Desconocido', 'Desconocido').
+pelicula(301, 'La Novena', deporte, 2021, 'Cruz Azul es campeón: la gloria está en dejar de fracasar, De la mano de Juan Reynoso y con una camada de grandes futbolistas como Jonathan Rodríguez, Luis Romo, Orbelín Pineda, Roberto Alvarado y algunos más, la Máquina volvió a proclamarse como campeón del futbol mexicano un 30 de mayo de 2021', 90, 'Juan Reynoso', 'Jonathan Rodríguez, Luis Romo, Orbelín Pineda, Roberto Alvarado y algunos más', 'Español').
+pelicula(302, 'Final Champions Ligue 2015', deporte, 2015, 'La Liga de Campeones de la UEFA 2014-15 fue la 60.ª edición de la competición. Se disputó desde el 1 de julio de 2014 hasta el 6 de junio de 2015. La final se jugó en el Estadio Olímpico de Berlín, Alemania y el FC Barcelona se coronó campeón de Europa por quinta vez en su historia tras vencer a la Juventus por 3-1.', 90, 'Luis Enrique', 'MSN Messi, Suarez, Neymar y compañía', 'Español, Catalan').
 
 todas_series :-
  serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
@@ -363,27 +365,31 @@ todas_peliculas :-
     fail. 
 
 
-todas_las_peliculas :-
-    serie(ID, Titulo, Categoria, Anio, Sinopsis, Duracion, Actores, Idioma),
-    format('ID: ~w~n', [ID]),
+
+
+series_categoria(Categoria) :-
+ serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion,Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
     format('Título: ~w~n', [Titulo]),
     format('Categoría: ~w~n', [Categoria]),
     format('Año: ~w~n', [Anio]),
     format('Sinopsis: ~w~n', [Sinopsis]),
     format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
     format('Actores: ~w~n', [Actores]),
     format('Idioma: ~w~n', [Idioma]),
     nl,
     fail.
-
-categoria_serie(Categoria) :-
-    serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Actores, Idioma),
+    
+pelis_categoria(Categoria) :-
+ pelicula(Id, Titulo, Categoria, Anio, Sinopsis, Duracion,Director, Actores, Idioma),
     format('Id: ~w~n', [Id]),
-    format('Titulo: ~w~n', [Titulo]),
-    format('Categorias: ~w~n', [Categoria]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
     format('Año: ~w~n', [Anio]),
     format('Sinopsis: ~w~n', [Sinopsis]),
-    format('Duracion: ~w~n' ,[Duracion]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
     format('Actores: ~w~n', [Actores]),
     format('Idioma: ~w~n', [Idioma]),
     nl,
@@ -416,3 +422,31 @@ consulta_id_series(Id) :-
     format('Idioma: ~w~n', [Idioma]),
     nl,
     fail. 
+
+    todo_el_contenido_pelis(Anio) :-
+pelicula(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.
+    
+todo_el_contenido_series(Anio) :-
+serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.

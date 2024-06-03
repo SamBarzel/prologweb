@@ -1,26 +1,34 @@
 <?php
+//llamamos el archivo de la conexion
 require_once 'conexion.php';
 require_once 'template/cabecera_index.php';
 
-if (isset($_GET['categoria'])) {
-    $categoria = $_GET['categoria'];
+try{
+    //Realizamos la consulta a prolog
+    $consulta = 'todas_series';
+    $resultados = consultas($consulta);
 
-    try {
-        // Realizamos la consulta a Prolog
-        $consulta = "pelis_categoria('$categoria').";
-        echo "Consulta Prolog: " . htmlspecialchars($consulta) . "<br>"; // Línea de depuración
-        $resultados = consultas($consulta);
-
-        if (count($resultados) > 0) {
-            $todo = $resultados;
-        } else {
-            echo "No se encontraron resultados para la categoría proporcionada.";
-        }
-    } catch (Exception $e) {
-        echo 'Error: ' . $e->getMessage();
+    //imprimimos los resultados
+    /*foreach ($resultados as $resultado){
+        echo "Id: " . $resultado['Id'] . "\n";
+        echo "Titulo: " . $resultado['Titulo'] . "\n";
+        echo "Categoria: " . $resultado['Categoria'] . "\n";
+        echo "Year: " . $resultado['Year'] . "\n";
+        echo "Sinopsis: " . $resultado['Sinopsis'] . "\n";
+        echo "Duracion: " . $resultado['Duracion'] . " minutos\n";
+        echo "Director: " . $resultado['Director'] . "\n";
+        echo "Actores: " . $resultado['Actores'] . "\n";
+        echo "Idioma: " . $resultado['Idioma'] . "\n";
+        echo "---------------------------\n";
+    }*/
+    $todo = array();
+    //Esta función mezcla un array (crea un orden aleatorio de sus elementos). Utiliza un generador de números seudoaleatorios que no es apto para fines criptográficos.
+    shuffle($resultados);
+    foreach ($resultados as $resultado){
+        $todo[] = $resultado;
     }
-} else {
-    echo "No se ha proporcionado una categoría.";
+} catch (Exception $e){
+    echo 'Error: ' . $e->getMessage();
 }
 ?>
 
@@ -31,13 +39,10 @@ if (isset($_GET['categoria'])) {
 -->
 <div class="filter-bar">
   <div class="filter-dropdowns">
-    <?php
-    //ucfirst — Convierte el primer caracter de una cadena a mayúsculas
-    $categoria = ucfirst($categoria);
-echo '<h1>Todas las Peliculas ('. $categoria .')</h1>';
-   ?>
+   <h1>Series Destacadas</h1>
   </div>
 </div>
+
 
 <!--
   - movies grid
@@ -45,14 +50,13 @@ echo '<h1>Todas las Peliculas ('. $categoria .')</h1>';
 <div class="movies-grid">
 
 <?php 
-if (isset($todo) && count($todo) > 0) {
-    foreach ($todo as $resultado) {
-        cards($resultado);
-    }
-} else {
-    echo "No hay series para mostrar.";
+// Contador para mostrar 20 series
+for ($i = 0; $i < 24; $i++){
+  if(isset($todo[$i])){
+     // $todo = $todo[$i];
+      cards($todo[$i]);
+  }
 }
-
 function cards($todo){
   $id = htmlspecialchars($todo['Id']);
   $titulo = htmlspecialchars($todo['Titulo']);
@@ -64,9 +68,11 @@ function cards($todo){
   $actores = htmlspecialchars($todo['Actores']);
   $idioma = htmlspecialchars($todo['Idioma']);
 
+
+
   echo '<div class="movie-card">';
     echo '<div class="card-head">';
-      echo '<img src="./assets/images/pelis/' . $id . '.png" alt="" class="card-img">';
+      echo '<img src="./assets/images/movies/' . $id . '.png" alt="" class="card-img">';
 
       echo '<div class="card-overlay">';
 
@@ -86,7 +92,7 @@ function cards($todo){
     echo '</div>';
 
     echo '<div class="card-body">';
-    echo '<h3 class="card-title"><a href="info.php?id=' . $id . '">' . $titulo . '</a></h3>';
+    echo '<h3 class="card-title"><a href="info_s.php?id=' . $id . '">' . $titulo . '</a></h3>';
 
       echo '<div class="card-info">';
         echo '<span class="genre">' . $categoria . '</span>';
@@ -95,15 +101,19 @@ function cards($todo){
     echo '</div>';
 
   echo '</div>';
+ 
+
+
+
+
 }
 ?>
 </div>
 
-<!-- Optionally include a button for loading more content dynamically -->
-<button class="load-more">Ver Más</button>
 
 </section>
 
-<?php
+
+      <?php
 require_once 'template/pie_index.php';
 ?>
