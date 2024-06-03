@@ -63,7 +63,7 @@
             <li> <a href="#category" class="navbar-link">Categora Peliculas</a> </li>
             <li> <a href="destacadasp.php" class="navbar-link  indicator">Destacadas Pelis</a> </li>
             <li> <a href="destacadass.php" class="navbar-link  indicator">Destacadas Series</a> </li>
-
+            <li> <a href="filtro_year.php" class="navbar-link  indicator">Filtro por Año</a> </li>
 
           </ul>
         </nav>

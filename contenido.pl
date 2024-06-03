@@ -288,7 +288,7 @@ pelicula(154, 'The Matrix Resurrections', estrenos, 2021, 'Thomas Anderson (tamb
 pelicula(155, 'Shang-Chi and the Legend of the Ten Rings', estrenos, 2021, 'Un joven debe enfrentarse al pasado oscuro de su familia y confrontar al líder de una organización criminal que posee poderosos artefactos.', 132, 'Destin Daniel Cretton', 'Simu Liu, Awkwafina, Tony Leung', 'Inglés').
 pelicula(156, 'Venom: Let There Be Carnage', estrenos, 2021, 'El simbionte Venom debe enfrentarse a un nuevo enemigo, Carnage, mientras lucha por controlar su relación con su huésped humano, Eddie Brock.', 97, 'Andy Serkis', 'Tom Hardy, Woody Harrelson, Michelle Williams', 'Inglés').
 pelicula(157, 'The Batman', estrenos, 2022, 'Un nuevo capítulo en la historia del Caballero Oscuro, donde Batman investiga una serie de crímenes mientras se enfrenta a algunos de sus enemigos más icónicos.', 176, 'Matt Reeves', 'Robert Pattinson, Zoë Kravitz, Paul Dano', 'Inglés').
-pelicula(158, 'Top Gun: Maverick', estrenos, 2022, 'El piloto de élite Pete 'Maverick' Mitchell regresa a la academia Top Gun como instructor, donde debe enfrentarse a fantasmas de su pasado mientras entrena a una nueva generación de pilotos.', 144, 'Joseph Kosinski', 'Tom Cruise, Miles Teller, Jennifer Connelly', 'Inglés').
+pelicula(158, 'Top Gun: Maverick', estrenos, 2022, 'El piloto de élite Pete Maverick Mitchell regresa a la academia Top Gun como instructor, donde debe enfrentarse a fantasmas de su pasado mientras entrena a una nueva generación de pilotos.', 144, 'Joseph Kosinski', 'Tom Cruise, Miles Teller, Jennifer Connelly', 'Inglés').
 pelicula(159, 'Black Adam', estrenos, 2022, 'Un antiguo esclavo dotado de poderes místicos obtiene libertad y busca venganza contra aquellos que lo oprimieron, desatando su furia sobre el mundo moderno.', 129, 'Jaume Collet-Serra', 'Dwayne Johnson, Noah Centineo, Aldis Hodge', 'Inglés').
 pelicula(160, 'Jurassic World: Dominion', estrenos, 2022, 'Los dinosaurios vagan libremente en la Tierra, pero cuando una nueva amenaza surge, un grupo de personas debe trabajar juntas para evitar la extinción humana.', 156, 'Colin Trevorrow', 'Chris Pratt, Bryce Dallas Howard, Jeff Goldblum', 'Inglés').
 %drama-----------
@@ -422,3 +422,31 @@ consulta_id_series(Id) :-
     format('Idioma: ~w~n', [Idioma]),
     nl,
     fail. 
+
+    todo_el_contenido_pelis(Anio) :-
+pelicula(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.
+    
+todo_el_contenido_series(Anio) :-
+serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.
