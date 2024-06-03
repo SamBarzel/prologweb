@@ -63,7 +63,7 @@ if(isset($_GET['id'])){
 						</div>
 						<div class="btn-transform transform-vertical">
 							<div><a href="#" class="item item-1 yellowbtn"> <i class="ion-play"></i> Reproducir Pelicula</a></div>
-							<div><a href="#" class="item item-2 yellowbtn"><i class="ion-card"></i></a></div>
+							<div><a href="#" class="item item-2 yellowbtn"><i class="ion-play"></i></a></div>
 						</div>
 					</div>
 				</div>
@@ -198,7 +198,7 @@ if(isset($_GET['id'])){
 											</div>  -->
 											<div class="title-hd-sm">
 												<h4>User reviews</h4>
-												<a href="#" class="time">See All 56 Reviews <i class="ion-ios-arrow-right"></i></a>
+												<a href="#" class="time">Ver los 56 Comentarios <i class="ion-ios-arrow-right"></i></a>
 											</div>
 											<!-- movie user review -->
 											<div class="mv-user-review-item">
@@ -243,16 +243,7 @@ if(isset($_GET['id'])){
 						            			<h6>MMPA Rating:</h6>
 						            			<p>PG-13</p>
 						            		</div>
-						            	 <div class="sb-it">
-						            			<h6>Palabras Clave:</h6>
-						            			<p class="tags">
-						            				<span class="time"><a href="#">superhero</a></span>
-													<span class="time"><a href="#">marvel universe</a></span>
-													<span class="time"><a href="#">comic</a></span>
-													<span class="time"><a href="#">blockbuster</a></span>
-													<span class="time"><a href="#">final battle</a></span>
-						            			</p>
-						            		</div> 	
+
 						            		<div class="ads">
 												<img src="images/uploads/ads1.png" alt="">
 											</div>
@@ -841,9 +832,86 @@ if(isset($_GET['id'])){
 					</div>
 				</div>
 			</div>
+			<section class="category" id="category_series">
+
+        <div class="filter-baar">
+        <h2 class="section-heading" >Categoria Series</h2>
+        </div>
+
+        <div class="category-grid">
+        <?php
+        echo  '<div class="category-card">';
+         echo   '<img src="./assets/images/1.png" alt="" class="card-img">';
+          echo  '<div class="name">';
+            echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+          echo  '</div>';
+          echo '<div class="total">10</div>';
+          echo '</div>';
+          
+          echo  '<div class="category-card">';
+         echo   '<img src="./assets/images/11.png" alt="" class="card-img">';
+          echo  '<div class="name">';
+            echo  '<h3><a href="categorias_series.php?categoria=ciencia_ficcion">Ciencia Ficción</a></h3>';
+          echo  '</div>';
+          echo '<div class="total">10</div>';
+          echo '</div>';
+
+          echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/30.png" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias_series.php?categoria=aventura">Aventura</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">10</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+           echo   '<img src="./assets/images/88.png" alt="" class="card-img">';
+            echo  '<div class="name">';
+              echo  '<h3><a href="categorias_series.php?categoria=terror">Terror</a></h3>';
+            echo  '</div>';
+            echo '<div class="total">5</div>';
+            echo '</div>';
+
+            echo  '<div class="category-card">';
+            echo   '<img src="./assets/images/42.png" alt="" class="card-img">';
+             echo  '<div class="name">';
+               echo  '<h3><a href="categorias_series.php?categoria=anime">Anime</a></h3>';
+             echo  '</div>';
+             echo '<div class="total">10</div>';
+             echo '</div>';
+
+             echo  '<div class="category-card">';
+             echo   '<img src="./assets/images/90.png" alt="" class="card-img">';
+              echo  '<div class="name">';
+                echo  '<h3><a href="categorias_series.php?categoria=comedia">Comedia</a></h3>';
+              echo  '</div>';
+              echo '<div class="total">8</div>';
+              echo '</div>';
+
+              echo  '<div class="category-card">';
+              echo   '<img src="./assets/images/96.png" alt="" class="card-img">';
+               echo  '<div class="name">';
+                 echo  '<h3><a href="categorias_series.php?categoria=suspenso">Suspenso</a></h3>';
+               echo  '</div>';
+               echo '<div class="total">9</div>';
+               echo '</div>';
+
+               echo  '<div class="category-card">';
+               echo   '<img src="./assets/images/99.png" alt="" class="card-img">';
+                echo  '<div class="name">';
+                  echo  '<h3><a href="categorias_series.php?categoria=animacion">Animación</a></h3>';
+                echo  '</div>';
+                echo '<div class="total">9</div>';
+                echo '</div>';
+?>
+        </div>
+
+      </section>
 		</div>
 	</div>
 </div>
+
+
 
 <?php
 require_once '<template/pie_info.php';
