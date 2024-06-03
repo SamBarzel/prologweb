@@ -82,13 +82,11 @@ serie(69, 'The Simpsons', animacion, 1989, 'La familia Simpson, compuesta por Ho
 serie(70, 'Futurama', animacion, 1999, 'Philip J. Fry, un repartidor de pizzas del siglo XX, se despierta en el futuro después de ser congelado criogénicamente. Se une a una tripulación de reparto interplanetario y vive aventuras en el espacio. Protagonizada por Billy West y Katey Sagal, la serie es conocida por su humor inteligente y referencias culturales.', 140, 'Matt Groening', 'Billy West, Katey Sagal', 'Inglés y Español').
 serie(71, 'The Regular Show', animacion, 2010, 'Mordecai y Rigby, dos amigos y trabajadores en un parque, enfrentan situaciones surrealistas y cómicas mientras intentan evitar el aburrimiento. Protagonizada por J.G. Quintel, William Salyers y Sam Marin, The Regular Show es una serie animada llena de humor absurdo y aventuras extravagantes.', 261, 'J.G. Quintel', 'J.G. Quintel, William Salyers, Sam Marin', 'Inglés').
 serie(72, 'Phineas y Ferb', animacion, 2007, 'Phineas y Ferb, dos hermanastros, aprovechan al máximo sus vacaciones de verano construyendo inventos extraordinarios mientras su hermana Candace intenta exponer sus travesuras. Protagonizada por Vincent Martella, Thomas Sangster y Ashley Tisdale, Phineas y Ferb es una serie animada llena de humor, aventuras y canciones pegajosas.', 222, 'Dan Povenmire', 'Vincent Martella, Thomas Sangster, Ashley Tisdale', 'Inglés').
-serie(73, 'Family Guy', animacion, 1999, 'La vida de la disfuncional familia Griffin, compuesta por Peter, Lois, Meg, Chris, Stewie y su perro Brian, es satirizada con humor negro y referencias culturales. Protagonizada por Seth MacFarlane y Alex Borstein, la serie es conocida por su estilo irreverente y provocador.', 400, 'Seth MacFarlane', 'Seth MacFarlane, Alex Borstein', 'Inglés y Español').
-serie(74, 'Kick Buttowski: Suburban Daredevil', animacion, 2010, 'Kick Buttowski, un joven entusiasta de las acrobacias extremas, busca convertirse en el stuntman más grande del mundo, enfrentando desafíos y aventuras en su vecindario suburbano. Protagonizada por Charlie Schlatter, Matt Jones y Danny Cooksey, Kick Buttowski: Suburban Daredevil es una serie animada llena de acción, comedia y emocionantes hazañas.', 52, 'Chris Savino', 'Charlie Schlatter, Matt Jones, Danny Cooksey', 'Inglés').
+serie(73, 'Kick Buttowski: Suburban Daredevil', animacion, 2010, 'Kick Buttowski, un joven entusiasta de las acrobacias extremas, busca convertirse en el stuntman más grande del mundo, enfrentando desafíos y aventuras en su vecindario suburbano. Protagonizada por Charlie Schlatter, Matt Jones y Danny Cooksey, Kick Buttowski: Suburban Daredevil es una serie animada llena de acción, comedia y emocionantes hazañas.', 52, 'Chris Savino', 'Charlie Schlatter, Matt Jones, Danny Cooksey', 'Inglés').
 
 %policial
-serie(75, 'Breaking Bad', policial, 2008, 'Walter White, un profesor de química convertido en fabricante de metanfetaminas, se asocia con su exalumno Jesse Pinkman para asegurar el futuro financiero de su familia, mientras se enfrenta a los desafíos del mundo criminal. Protagonizada por Bryan Cranston y Aaron Paul, la serie es un intenso drama criminal lleno de suspense.', 62, 'Vince Gilligan', 'Bryan Cranston, Aaron Pau', 'Inglés y Español').
-serie(76, 'True Detective', policial, 2014, 'Cada temporada presenta una historia y un elenco diferente, explorando oscuros crímenes en varios lugares de Estados Unidos. Protagonizada en su primera temporada por Matthew McConaughey y Woody Harrelson, la serie es conocida por su estilo cinematográfico y profundas tramas psicológicas.', 24, 'Nic Pizzolatto', 'Matthew McConaughey, Woody Harrelson', 'Inglés y Español').
-serie(77, 'Mindhunter', policial, 2017, 'Ambientada en los años 70, la serie sigue a dos agentes del FBI, Holden Ford y Bill Tench, que desarrollan técnicas de perfilación criminal al entrevistar a asesinos en serie. Protagonizada por Jonathan Groff y Holt McCallany, la serie es un thriller psicológico basado en hechos reales.', 19, 'Joe Penhall', 'Jonathan Groff, Holt McCallany', 'Inglés y Español').
+serie(74, 'Breaking Bad', policial, 2008, 'Walter White, un profesor de química convertido en fabricante de metanfetaminas, se asocia con su exalumno Jesse Pinkman para asegurar el futuro financiero de su familia, mientras se enfrenta a los desafíos del mundo criminal. Protagonizada por Bryan Cranston y Aaron Paul, la serie es un intenso drama criminal lleno de suspense.', 62, 'Vince Gilligan', 'Bryan Cranston, Aaron Pau', 'Inglés y Español').
+serie(75, 'True Detective', policial, 2014, 'Cada temporada presenta una historia y un elenco diferente, explorando oscuros crímenes en varios lugares de Estados Unidos. Protagonizada en su primera temporada por Matthew McConaughey y Woody Harrelson, la serie es conocida por su estilo cinematográfico y profundas tramas psicológicas.', 24, 'Nic Pizzolatto', 'Matthew McConaughey, Woody Harrelson', 'Inglés y Español').
 serie(78, 'Narcos', policial, 2015, 'La serie sigue el ascenso y la caída del infame narcotraficante colombiano Pablo Escobar y el esfuerzo de la DEA por capturarlo. Protagonizada por Wagner Moura y Pedro Pascal, la serie es una tensa y dramática representación del tráfico de drogas en América Latina.', 30, 'Chris Brancato', 'Wagner Moura, Pedro Pascal', 'Inglés y Español').
 serie(79, 'Dexter', policial, 2006, 'Dexter Morgan, un analista forense especializado en salpicaduras de sangre para el Departamento de Policía de Miami, lleva una doble vida como asesino en serie que caza a criminales que han escapado de la justicia. Protagonizada por Michael C. Hall y Jennifer Carpenter, la serie es un oscuro y emocionante thriller.', 96, 'James Manos Jr.', 'Michael C. Hall, Jennifer Carpenter', 'Inglés y Español').
 serie(80, 'Sherlock', policial, 2010, 'Una adaptación moderna de los clásicos de Arthur Conan Doyle, donde el detective Sherlock Holmes y su compañero, el Dr. John Watson, resuelven crímenes en el Londres contemporáneo. Protagonizada por Benedict Cumberbatch y Martin Freeman, la serie es conocida por su ingenio y emocionante narrativa.', 13, 'Steven Moffat, Mark Gatiss', 'Benedict Cumberbatch, Martin Freeman', 'Inglés y Español').
@@ -153,7 +151,6 @@ pelicula(31, 'Supersize Me', documentales, 2004, 'Un cineasta se somete a una di
 pelicula(32, 'Bowling for Columbine', documentales, 2002, 'Un documental que explora las causas de la violencia armada en Estados Unidos, especialmente en relación con la masacre en la escuela Columbine.', 120, 'Michael Moore', 'Michael Moore, Charlton Heston, Marilyn Manson', 'Inglés').
 pelicula(33, 'March of the Penguins', documentales, 2005, 'Un documental que sigue la migración anual de los pingüinos emperador en la Antártida, destacando su lucha por la supervivencia en condiciones extremas.', 80, 'Luc Jacquet', 'Narrado por Morgan Freeman', 'Inglés').
 pelicula(34, 'An Inconvenient Truth', documentales, 2006, 'Un documental sobre el cambio climático, presentado por el exvicepresidente de los Estados Unidos, Al Gore, que busca concienciar sobre la crisis ambiental.', 96, 'Davis Guggenheim', 'Al Gore', 'Inglés').
-pelicula(36, 'The Act of Killing', documentales, 2012, 'Un documental que sigue a antiguos líderes paramilitares indonesios mientras recrean sus crímenes de guerra en forma de películas de Hollywood.', 159, 'Joshua Oppenheimer', 'Anwar Congo, Herman Koto, Syamsul Arifin', 'Indonesio, Inglés').
 pelicula(36, 'Man on Wire', documentales, 2008, 'Un documental que narra la historia del funambulista francés Philippe Petit y su audaz caminata entre las Torres Gemelas del World Trade Center en 1974.', 94, 'James Marsh', 'Philippe Petit, Jean François Heckel, Jean-Louis Blondeau', 'Inglés, Francés').
 pelicula(37, 'Inside Job', documentales, 2010, 'Un documental que examina las causas de la crisis financiera de 2008 y expone la corrupción y la codicia en el sistema financiero global.', 109, 'Charles Ferguson', 'Matt Damon (Narrador), William Ackman, Daniel Alpert', 'Inglés').
 pelicula(38, 'Blackfish', documentales, 2013, 'Un documental que revela la verdad detrás del cautiverio de orcas en parques acuáticos y el impacto devastador que tiene en su bienestar emocional y físico.', 83, 'Gabriela Cowperthwaite', 'Tilikum, Dave Duffus, Samantha Berg', 'Inglés').
@@ -284,7 +281,6 @@ pelicula(150, 'Avengers: Endgame', marvel, 2019, 'Los Vengadores restantes deben
 pelicula(151, 'Dune', estrenos, 2021, 'En un futuro lejano, el hijo de una familia noble debe proteger un planeta desértico y sus recursos mientras lucha por su supervivencia y el destino de su pueblo.', 155, 'Denis Villeneuve', 'Timothée Chalamet, Rebecca Ferguson, Zendaya', 'Inglés').
 pelicula(152, 'Barbie', estrenos, 2023, 'Barbie, la muñeca más famosa del mundo, emprende una aventura en el mundo real donde descubre el verdadero significado de la vida y la amistad.', 114, 'Greta Gerwig', 'Margot Robbie, Ryan Gosling, America Ferrera', 'Inglés').
 pelicula(153, 'Eternals', estrenos, 2021, 'Un grupo de seres inmortales con habilidades especiales se reúnen para proteger a la humanidad de una amenaza antigua.', 157, 'Chloé Zhao', 'Gemma Chan, Richard Madden, Angelina Jolie', 'Inglés').
-pelicula(154, 'The Matrix Resurrections', estrenos, 2021, 'Thomas Anderson (también conocido como Neo) se encuentra atrapado una vez más en la simulación de la realidad y debe descubrir la verdad detrás de su existencia.', 148, 'Lana Wachowski', 'Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II', 'Inglés').
 pelicula(155, 'Shang-Chi and the Legend of the Ten Rings', estrenos, 2021, 'Un joven debe enfrentarse al pasado oscuro de su familia y confrontar al líder de una organización criminal que posee poderosos artefactos.', 132, 'Destin Daniel Cretton', 'Simu Liu, Awkwafina, Tony Leung', 'Inglés').
 pelicula(156, 'Venom: Let There Be Carnage', estrenos, 2021, 'El simbionte Venom debe enfrentarse a un nuevo enemigo, Carnage, mientras lucha por controlar su relación con su huésped humano, Eddie Brock.', 97, 'Andy Serkis', 'Tom Hardy, Woody Harrelson, Michelle Williams', 'Inglés').
 pelicula(157, 'The Batman', estrenos, 2022, 'Un nuevo capítulo en la historia del Caballero Oscuro, donde Batman investiga una serie de crímenes mientras se enfrenta a algunos de sus enemigos más icónicos.', 176, 'Matt Reeves', 'Robert Pattinson, Zoë Kravitz, Paul Dano', 'Inglés').
@@ -305,7 +301,7 @@ pelicula(170, 'Criadas y Señoras', drama, 2011, 'Ambientada en el Mississippi d
 %extras--------
 pelicula(171, 'Rápidos y Furiosos X', accion, 2022, 'Dom Toretto y su equipo enfrentan nuevas amenazas y aventuras mientras continúan su lucha contra los villanos más peligrosos del mundo.', 143, 'Louis Leterrier', 'Vin Diesel, Michelle Rodriguez, Tyrese Gibson', 'Inglés').
 pelicula(172, 'Predator: La presa', accion, 2022, 'Un cazador solitario se enfrenta a un depredador alienígena que acecha a los humanos en un ambiente hostil.', 100, 'Dan Trachtenberg', 'Amber Midthunder, Dakota Beavers, Dane DiLiegro', 'Inglés, Comanche').
-pelicula(173, 'Evil Dead Rise', accion, 2023, 'Dos hermanas intentan sobrevivir y salvar a su familia de los demonios que han despertado en su edificio de apartamentos.', 96, 'Lee Cronin', 'Alyssa Sutherland, Lily Sullivan, Gabrielle Echols', 'Inglés').
+pelicula(173, 'Evil Dead Rise', horror, 2023, 'Dos hermanas intentan sobrevivir y salvar a su familia de los demonios que han despertado en su edificio de apartamentos.', 96, 'Lee Cronin', 'Alyssa Sutherland, Lily Sullivan, Gabrielle Echols', 'Inglés').
 pelicula(174, 'John Wick 4', accion, 2023, 'El legendario asesino a sueldo John Wick enfrenta a sus enemigos más peligrosos mientras busca venganza y libertad en una intensa batalla final.', 169, 'Chad Stahelski', 'Keanu Reeves, Donnie Yen, Bill Skarsgård', 'Inglés').
 pelicula(175, 'Kingsman: Servicio secreto', accion, 2015, 'Un joven problemático es reclutado por una organización secreta de espionaje para detener una amenaza global.', 129, 'Matthew Vaughn', 'Taron Egerton, Colin Firth, Samuel L. Jackson', 'Inglés').
 pelicula(176, 'Los Juegos del Hambre', accion, 2012, 'En un futuro distópico, Katniss Everdeen debe luchar por su vida en un sangriento torneo televisado.', 142, 'Gary Ross', 'Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth', 'Inglés').
@@ -422,3 +418,31 @@ consulta_id_series(Id) :-
     format('Idioma: ~w~n', [Idioma]),
     nl,
     fail. 
+
+    todo_el_contenido_pelis(Anio) :-
+pelicula(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.
+    
+todo_el_contenido_series(Anio) :-
+serie(Id, Titulo, Categoria, Anio, Sinopsis, Duracion, Director, Actores, Idioma),
+    format('Id: ~w~n', [Id]),
+    format('Título: ~w~n', [Titulo]),
+    format('Categoría: ~w~n', [Categoria]),
+    format('Año: ~w~n', [Anio]),
+    format('Sinopsis: ~w~n', [Sinopsis]),
+    format('Duración: ~w minutos~n', [Duracion]),
+    format('Director: ~w~n', [Director]),
+    format('Actores: ~w~n', [Actores]),
+    format('Idioma: ~w~n', [Idioma]),
+    nl,
+    fail.

@@ -110,6 +110,29 @@
 -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    function navigateTo(url) {
+      window.location.href = url;
+    }
+  </script>
+  <script>
+function redirectToCategory(selectElement) {
+    var selectedOption = selectElement.options[selectElement.selectedIndex];
+    var url = selectedOption.getAttribute('data-url');
+    if (url) {
+        window.location.href = url;
+    }
+}
+
+document.getElementById('genre-categoria-peliculas').addEventListener('change', function() {
+    redirectToCategory(this);
+});
+
+document.getElementById('genre-categoria-series').addEventListener('change', function() {
+    redirectToCategory(this);
+});
+</script>
+
 </body>
 
 </html>

@@ -161,6 +161,7 @@ nav { margin-right: 200px; }
   color: var(--off-white);
   font-size: var(--fs-sm);
   font-weight: var(--fw-5);
+  font-family: sans-serif;
 }
 
 .navbar-form-btn {
@@ -302,14 +303,7 @@ nav { margin-right: 200px; }
 
 .filter-bar option { background: var(--oxford-blue); }
 
-.filter-radios {
-  position: relative;
-  background: var(--rich-black-fogra-29);
-  padding: 10px;
-  border-radius: 15px;
-}
 
-.filter-radios input { display: none; }
 
 .filter-radios label {
   position: relative;
@@ -328,7 +322,7 @@ input ~ .checked-radio-bg {
    * variable for changing position and size
    * besed on radio checked 
    */
-  --width: 85px;
+  --width: 90px;
   --left:   5px;
 
   background: var(--oxford-blue);
@@ -341,13 +335,13 @@ input ~ .checked-radio-bg {
 }
 
 #popular:checked ~ .checked-radio-bg {
-  --width: 73px;
-  --left:  90px;
+  --width: 80px;
+  --left:  140px;
 }
 
 #newest:checked ~ .checked-radio-bg {
-  --width:  81px;
-  --left:  163px;
+  --width:  125px;
+  --left:  28px;
 }
 
 
@@ -636,7 +630,7 @@ input ~ .checked-radio-bg {
 \*-------------------------------------*/
 
 footer {
-  background: var(--rich-black-fogra-30);
+ 
   padding: 80px var(--px) 40px;
 }
 

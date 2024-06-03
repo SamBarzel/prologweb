@@ -38,10 +38,79 @@ try{
   - filter bar
 -->
 <div class="filter-bar">
-  <div class="filter-dropdowns">
-   <h1>Series Destacadas</h1>
+  <h2 class="card-title">Series</h2>
+  <div class="filter-radios">
+
+
+    <?php
+  echo '<select name="genre" class="genre" id="genre-select">';
+  echo '<option value="all genres">Todos los Generos</option>';
+  echo ' <option value="aventura"><a href="categorias_series.php?categoria=aventura">Aventura</a></option>';
+  echo ' <option value="terror"><a href="categorias_series.php?categoria=terror">Terror</a></option>';
+  echo ' <option value="suspenso"><a href="categorias_series.php?categoria=suspenso">Suspenso</a></option>';
+  echo ' <option value="comedia"><a href="categorias_series.php?categoria=comedia">Comedia</a></option>';
+  echo ' <option value="animacion"><a href="categorias_series.php?categoria=animacion">Animación</a></option>';
+  echo ' <option value="ciencia_ficcion"><a href="categorias_series.php?categoria=ciencia_ficcion">Ciencia Ficción</a></option>';
+  echo ' <option value="anime"><a href="categorias_series.php?categoria=anime">Anime</a></option>';
+  echo ' <option value="drama"><a href="categorias_series.php?categoria=drama">Drama</a></option>';
+  echo ' </select>';
+?>
   </div>
+          <div class="filter-radios">
+
+          <form method="GET" action="filtro_series.php" class="custom-inline-form">
+        <select name="year" class="custom-year-select">
+            <option>Todos los Años</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+        <button type="submit" class="custom-submit-button">Filtrar</button>
+    </form>
+
+  </div>
+
+  <div class="filter-radios">
+    <input type="radio" name="grade" id="featured" onclick="navigateTo('index.php')">
+    <label for="featured">Populares</label>
+
+    <input type="radio" name="grade" id="popular" checked onclick="navigateTo('destacadass.php')">
+    <label for="popular">Recomendadas</label>
+
+    <input type="radio" name="grade" id="newest">
+    <label for="newest">Las Más Nuevas</label>
+
+    <div class="checked-radio-bg"></div>
 </div>
+</div>
+
 
 
 <!--
@@ -112,6 +181,82 @@ function cards($todo){
 
 
 </section>
+
+<section class="category" id="category_series">
+
+        <div class="filter-baar">
+        <h2 class="section-heading" >Categoria Series</h2>
+        </div>
+
+        <div class="category-grid">
+        <?php
+        echo  '<div class="category-card">';
+         echo   '<img src="./assets/images/movies/1.png" alt="" class="card-img">';
+          echo  '<div class="name">';
+            echo  '<h3><a href="categorias_series.php?categoria=drama">Drama</a></h3>';
+          echo  '</div>';
+          echo '<div class="total">10</div>';
+          echo '</div>';
+          
+          echo  '<div class="category-card">';
+         echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+          echo  '<div class="name">';
+            echo  '<h3><a href="categorias_series.php?categoria=ciencia_ficcion">Ciencia Ficción</a></h3>';
+          echo  '</div>';
+          echo '<div class="total">10</div>';
+          echo '</div>';
+
+          echo  '<div class="category-card">';
+          echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+           echo  '<div class="name">';
+             echo  '<h3><a href="categorias_series.php?categoria=aventura">Aventura</a></h3>';
+           echo  '</div>';
+           echo '<div class="total">10</div>';
+           echo '</div>';
+
+           echo  '<div class="category-card">';
+           echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+            echo  '<div class="name">';
+              echo  '<h3><a href="categorias_series.php?categoria=terror">Terror</a></h3>';
+            echo  '</div>';
+            echo '<div class="total">5</div>';
+            echo '</div>';
+
+            echo  '<div class="category-card">';
+            echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+             echo  '<div class="name">';
+               echo  '<h3><a href="categorias_series.php?categoria=anime">Anime</a></h3>';
+             echo  '</div>';
+             echo '<div class="total">10</div>';
+             echo '</div>';
+
+             echo  '<div class="category-card">';
+             echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+              echo  '<div class="name">';
+                echo  '<h3><a href="categorias_series.php?categoria=comedia">Comedia</a></h3>';
+              echo  '</div>';
+              echo '<div class="total">8</div>';
+              echo '</div>';
+
+              echo  '<div class="category-card">';
+              echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+               echo  '<div class="name">';
+                 echo  '<h3><a href="categorias_series.php?categoria=suspenso">Suspenso</a></h3>';
+               echo  '</div>';
+               echo '<div class="total">9</div>';
+               echo '</div>';
+
+               echo  '<div class="category-card">';
+               echo   '<img src="./assets/images/action.jpg" alt="" class="card-img">';
+                echo  '<div class="name">';
+                  echo  '<h3><a href="categorias_series.php?categoria=animacion">Animación</a></h3>';
+                echo  '</div>';
+                echo '<div class="total">9</div>';
+                echo '</div>';
+?>
+        </div>
+
+      </section>
 
 
       <?php
