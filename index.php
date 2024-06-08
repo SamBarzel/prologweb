@@ -54,7 +54,7 @@ try{
 <div class="movies-grid">
 
 <?php 
-// Contador para mostrar 20 series
+// Contador para mostrar 6 eries
 for ($i = 0; $i < 6; $i++) {
   if (isset($todo[$i])) {
       cards($todo[$i]);
